@@ -1,0 +1,20 @@
+# We'll use defaults from the LLVM style, but with 4 columns indentation.
+BasedOnStyle: LLVM
+IndentWidth: 4
+---
+Language: Cpp
+BreakBeforeBraces: Custom
+# BraceWrappingAfterControlStatementStyle: BWACS_Always
+BraceWrapping:
+  AfterCaseLabel: true
+  AfterClass: true
+  AfterControlStatement: Always
+  AfterEnum: true
+  AfterFunction: true
+  AfterNamespace: true
+  # AfterObjDecleration: true
+  AfterStruct: true
+  AfterUnion: true
+  AfterExternBlock: true
+  
+
